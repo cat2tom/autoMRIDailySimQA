@@ -1,0 +1,5 @@
+*.dcm
+*.pdf
+*.pyd
+*.dll
+*.exe

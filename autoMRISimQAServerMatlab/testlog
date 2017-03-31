@@ -1,0 +1,37 @@
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In autoMRISimQA (line 43)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In autoMRISimQA (line 45)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In autoMRISimQA (line 47)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In autoMRISimQA (line 49)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In autoMRISimQA (line 52)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In createSQLDataBaseLaser (line 18)
+  In autoMRISimQA (line 70)] 

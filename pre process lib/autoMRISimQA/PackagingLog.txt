@@ -1,0 +1,49 @@
+ant:
+<ant>
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_redistribution" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_testing" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_redistribution_files_only" />
+</ant>
+mcc -C -o autoMRISimQA -W WinMain:autoMRISimQA -T link:exe -d 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_testing' -v 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto lib loop\autoMRISimQATrack.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto lib loop\autoImageProcessLoopDatabaseLaserTrack.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\database lib\createDailyQATableLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\database lib\createSQLDataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\dailyQAAnalyzerFileListLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\findCellStringIndex.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\findCenterSlice2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\fun_apply_mask.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\fun_DICOMInfoAccess.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\generateDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\generateHeadFooterDailyQA.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\generateMultiDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getAveragedFOVCenterPixel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getEachSliceTimeStamp.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getImageCenter.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getLaserCoordinates.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getOutPut2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getSNRGhosting3.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\image extractor lib\getUniformityContrast3.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-pdfa-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-xtra-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itextpdf-5.5.7.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto lib loop\readConfigDirs.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\excel lib\ReadFromExcel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\sortImagesIntoDictFileList.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\sqlite-jdbc-3.8.11.2.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto lib loop\updateQAtrack.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\excel lib\Write2Excel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\database lib\writeDailyDQA2DataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\excel lib\writeDailyQAToExcelFileLaser.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto
+lib loop" to Compiler path instance.] 
+Parsing file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\auto lib loop\autoMRISimQATrack.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 26 temporary MEX authorization files.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc5381_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc6536_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc30321_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc21387_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc1835_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc22584_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc31544_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc499_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc18431_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc10964_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc22617_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc12007_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc10842_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc9568_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc27679_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc12443_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc6253_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc727_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc22756_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc26128_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc25350_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc18277_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc28278_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc2792_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc5647_14796.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_039cc21205_14796.auth'.
+Generating file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\Program Files\matlab2015a\toolbox\compiler\Resources\default_icon.ico to C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_testing\autoMRISimQA.exe.
+Attempting to embed the CTF archive into the application C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_testing\autoMRISimQA.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Self contained installer created at C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\pre process lib\autoMRISimQA\for_redistribution\MyAppInstaller_mcr.exe.
+Packaging complete.
+Elapsed packaging time was: 1 minutes and 8 seconds.

@@ -1,0 +1,74 @@
+ant:
+<ant>
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_redistribution" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_testing" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_redistribution_files_only" />
+</ant>
+mcc -C -o autoMRISimQATrackOperatorFileWinTaskOld -W WinMain:autoMRISimQATrackOperatorFileWinTaskOld -T link:exe -d 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_testing' -v 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoImageProcessLoopDatabaseLaserTrackFileWinTaskOld.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\createDailyQATableLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\createSQLDataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\dailyQAAnalyzerFileListLaserOperator.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\findCellStringIndex.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\findCenterSlice2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\fun_apply_mask.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\fun_DICOMInfoAccess.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateHeadFooterDailyQA.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateMultiDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getAveragedFOVCenterPixel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getEachSliceTimeStamp.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getImageCenter.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getLaserCoordinates.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getOutPut2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getSNRGhosting3.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getUniformityContrast3.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-pdfa-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-xtra-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itextpdf-5.5.7.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\readConfigDirs.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\ReadFromExcel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\pre process lib\sortImagesIntoDictFileList.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\sqlite-jdbc-3.8.11.2.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\updateQAtrackOperator.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\Write2Excel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\writeDailyDQA2DataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\writeDailyQAToExcelFileLaser.m' 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_testing] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_testing] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop" to
+Compiler path instance.] 
+Parsing file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 26 temporary MEX authorization files.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2432690_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2416069_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2410354_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e249128_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2417025_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2418679_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e243907_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2426439_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2430386_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2431098_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2414258_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2423627_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2430705_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2421279_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e246117_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2425749_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e245033_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2421617_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2416322_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2428098_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2426905_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2410114_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2422951_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2416135_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e244010_15908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_03e2432491_15908.auth'.
+Generating file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\Program Files\matlab2015a\toolbox\compiler\Resources\default_icon.ico to C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_testing\autoMRISimQATrackOperatorFileWinTaskOld.exe.
+Attempting to embed the CTF archive into the application C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_testing\autoMRISimQATrackOperatorFileWinTaskOld.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTaskOld\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 51 seconds.
