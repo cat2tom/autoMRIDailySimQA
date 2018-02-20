@@ -148,6 +148,10 @@ end
 %     laser_y=y_location;
     
     laser_y=abs(y_location); % get absolute value of Y.
+
+    % subtract the distance after using external lasers setup. 
+
+    laser_y=laser_y-200; % 200 is the distance difference after using external laser setup.
     
     laser_z=z_mm;
 
