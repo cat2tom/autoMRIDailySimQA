@@ -150,8 +150,15 @@ end
     laser_y=abs(y_location); % get absolute value of Y.
 
     % subtract the distance after using external lasers setup. 
-
-    laser_y=laser_y-200; % 200 is the distance difference after using external laser setup.
+    % 200 is the distance difference after using external laser setup.
+    % after the iso was shifted to modified to the changes.
+    %laser_y=laser_y-200+50; 
+    
+    % after the major breakdown in 2019. The isocenter is shifted. The
+    % laser y is adjusted on 03/03/2020
+    
+    %laser_y=laser_y-30;
+    laser_y=0;
     
     laser_z=z_mm;
 

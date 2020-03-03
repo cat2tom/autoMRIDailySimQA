@@ -39,7 +39,9 @@ for i=1:length(tmp1)
     
     im=dicomread(full_file_name);
     
-    summed_pixel_value  = getAveragedFOVCenterPixel(im);
+    %summed_pixel_value  = getAveragedFOVCenterPixel(im);
+    
+    summed_pixel_value=sum(im(:));
    
     tmp_values(i)=summed_pixel_value;
         

@@ -199,9 +199,28 @@ end
 
 meanContrastS=mean([meanSTR meanSTL,meanSBL,meanSBR]);
 
+stdConstrastS=std([meanSTR meanSTL,meanSBL,meanSBR]);
+
 meanWaterS=mean([meanSL  meanSR  meanST meanSB]);
 
+stdWaterS=std([meanSL  meanSR  meanST meanSB]);
+
 contrast=abs(meanContrastS-meanWaterS)/(meanContrastS+meanWaterS);
+
+new_contrast=abs(meanContrastS-meanWaterS)/stdWaterS
+
+new_contrast2=abs(meanContrastS)/stdWaterS
+
+new_SNR=meanContrastS/stdConstrastS
+
+maxContrastS=max([meanSTR meanSTL,meanSBL,meanSBR]);
+minContrastS=min([meanSTR meanSTL,meanSBL,meanSBR]);
+
+new_PIU=100*(1-(maxContrastS-minContrastS)/(maxContrastS+minContrastS))
+
+
+
+
 
 % adjust baseline by adding 0.21 to measured value 11/10/2016
 
