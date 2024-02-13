@@ -8,6 +8,8 @@ to update the QA track automatically. use timer object to do asychronised
 process to make sure the external command works well. It the one of model
 regarding how Matlab interacts with other language-made program.
 
+05/02/2024. The timer object was removed. 
+
 This is the main fucntion for automMRISimQATimer version.
 
 %}
@@ -20,23 +22,7 @@ loadJARs;
 dirs=readConfig('C:\autoMRISimQAResource\dirsConfigFile\dirConfig.ini'); % This is only for clinical use.
 
 
-% establish the object to make sure using fixedSpacing option.
-t=timer('ExecutionMode','fixedSpacing','Period',60);
-
-% start dely in seconds
-t.StartDelay=1; % In order to make compiled exe to work, the dely has to be zero or one.
-
-% set the callback.
-t.TimerFcn={@autoMRISimQATrackOperatorFileWinTaskOldTimerCallback,dirs};
-
-% set stop function used by stop command.
-
-t.StopFcn=@(x,y) delete(timerfindall);
-
-% start the timer object but no stop. 
-
-start(t);
-
+autoMRISimQATrackOperatorFileWinTask(dirs)
 
 
 

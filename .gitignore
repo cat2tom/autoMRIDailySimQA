@@ -9,3 +9,10 @@ autoMRISimQATimerClinicTest/PackagingLog.txt
 autoMRISimQATimerClinicTest/for_testing/mccExcludedFiles.log
 autoMRISimQATimerClinicTest/PackagingLog.txt
 autoMRISimQATimerClinicTest.prj
+includedSupportPackages.txt
+mccExcludedFiles.log
+PackagingLog.html
+readme.txt
+requiredMCRProducts.txt
+splash.png
+unresolvedSymbols.txt
