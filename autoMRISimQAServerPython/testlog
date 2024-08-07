@@ -1,0 +1,176 @@
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 16)
+  In autoMRISimQA (line 46)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 16)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 16)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 16)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 16)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 18)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 69)
+  In loadJARs (line 20)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "images.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "itextpdf-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-xtra-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+Warning: "itext-pdfa-5.5.7.jar" is already specified on static java path.
+[> In javaclasspath>local_validate_dynamic_path (line 285)
+  In javaclasspath>local_javapath (line 182)
+  In javaclasspath (line 119)
+  In javaaddpath (line 71)
+  In loadJARs (line 22)
+  In autoMRISimQA (line 46)] 
+no new files

@@ -1,0 +1,74 @@
+ant:
+<ant>
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_redistribution" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_testing" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_redistribution_files_only" />
+</ant>
+mcc -C -o autoMRISimQATimer -W WinMain:autoMRISimQATimer -T link:exe -d 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_testing' -v 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-pdfa-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-xtra-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itextpdf-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\sqlite-jdbc-3.8.11.2.jar 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_testing] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_testing] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib" to
+Compiler path instance.] 
+Parsing file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 26 temporary MEX authorization files.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c31120_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c21644_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c27835_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c5815_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c14171_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c22293_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c6820_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c12463_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c12695_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c30259_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c24852_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c2629_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c21865_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c21322_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c24942_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c28316_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c29552_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c9801_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c13940_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c1473_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c27293_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c3375_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c5562_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c16455_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c30021_17948.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0461c29902_17948.auth'.
+Generating file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\Program Files\matlab2015a\toolbox\compiler\Resources\default_icon.ico to C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_testing\autoMRISimQATimer.exe.
+Attempting to embed the CTF archive into the application C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_testing\autoMRISimQATimer.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib\autoMRISimQATimer\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 42 seconds.

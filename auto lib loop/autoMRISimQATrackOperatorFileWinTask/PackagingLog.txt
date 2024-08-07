@@ -1,0 +1,69 @@
+ant:
+<ant>
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask\for_redistribution" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask\for_testing" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask\for_redistribution_files_only" />
+</ant>
+mcc -C -o autoMRISimQATrackOperatorFileWinTask -W WinMain:autoMRISimQATrackOperatorFileWinTask -T link:exe -d 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask\for_testing' -v 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoImageProcessLoopDatabaseLaserTrackFileWinTask.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\createDailyQATableLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\createSQLDataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\dailyQAAnalyzerFileListLaserOperator.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\findCellStringIndex.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\findCenterSlice2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\fun_apply_mask.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\fun_DICOMInfoAccess.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateHeadFooterDailyQA.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\generateMultiDailyQAReportTolDirLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getAveragedFOVCenterPixel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getEachSliceTimeStamp.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getImageCenter.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getLaserCoordinates.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getOutPut2.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getSNRGhosting3.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\image extractor lib\getUniformityContrast3.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-pdfa-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itext-xtra-5.5.7.jar -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\itextpdf-5.5.7.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\readConfigDirs.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\ReadFromExcel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\pre process lib\sortImagesIntoDictFileList.m' -a N:\PROJECTS\MRISimProject\autoMRISimQA\javaJarFiles\sqlite-jdbc-3.8.11.2.jar -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\updateQAtrackOperator.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\updateQAtrackOperatorExcel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\Write2Excel.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\database lib\writeDailyDQA2DataBaseLaser.m' -a 'C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\excel lib\writeDailyQAToExcelFileLaser.m' 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQATrack\for_testing] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_redistribution_files_only] 
+[Warning: Name is nonexistent or not a directory:
+C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib
+loop\autoMRISimQA_V1\for_testing] 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop" to
+Compiler path instance.] 
+Parsing file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 26 temporary MEX authorization files.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365418255_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365411970_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036542111_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365426678_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365428473_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365424808_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365417765_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365416962_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036542014_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036544327_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365431971_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036549622_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036548115_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365426156_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036543_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036541958_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365423156_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365410584_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036546518_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365423216_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365410867_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365426689_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365412613_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365429157_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_0365413361_13908.auth'.
+Removing: 'C:\Users\xingai\AppData\Local\Temp\mathworks_tmp_036546969_13908.auth'.
+Could not create output file: C:\aitangResearch\MRISimQALaserNoImageClinicQATrackOperator\auto lib loop\autoMRISimQATrackOperatorFileWinTask\for_testing\autoMRISimQATrackOperatorFileWinTask.exe
+ Please verify that at least 791552 bytes of disk space are free, you
+ have permission to write the file, and there is no existing
+ file with the same name which is currently locked from editing.

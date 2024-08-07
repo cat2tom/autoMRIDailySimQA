@@ -1,0 +1,24 @@
+ant:
+<ant>
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_redistribution" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_testing" />
+  <mkdir dir="C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_redistribution_files_only" />
+</ant>
+mcc -C -o autoMRISimQAServerMatlabGUI_V1 -W WinMain:autoMRISimQAServerMatlabGUI_V1 -T link:exe -d C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_testing -v C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI.m -a C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI.fig 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab"
+to Compiler path instance.] 
+Parsing file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_testing\readme.txt".
+Packaging...
+Adding custom icon D:\Program Files\matlab2015a\toolbox\compiler\Resources\default_icon.ico to C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_testing\autoMRISimQAServerMatlabGUI_V1.exe.
+Attempting to embed the CTF archive into the application C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_testing\autoMRISimQAServerMatlabGUI_V1.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Self contained installer created at C:\aitangResearch\MRISimQALaserNoImageClinicQATrack\autoMRISimQAServerMatlab\autoMRISimQAServerMatlabGUI_V1\for_redistribution\MyAppInstaller_mcr.exe.
+Packaging complete.
+Elapsed packaging time was: 56 seconds.
