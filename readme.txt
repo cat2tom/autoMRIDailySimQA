@@ -1,10 +1,3 @@
-
-AutoMRSimDailyQA
-
-By Aitang Xing
-
-
-
 autoMRISimQATimerClinicTest Executable
 
 1. Prerequisites for Deployment 
@@ -38,3 +31,17 @@ Files to Package for Standalone
     component by clicking the "Runtime included in package" link in the
     Deployment Tool.
 -This readme file 
+
+
+
+3. Definitions
+
+For information on deployment terminology, go to
+https://www.mathworks.com/help and select MATLAB Compiler >
+Getting Started > About Application Deployment >
+Deployment Product Terms in the MathWorks Documentation
+Center.
+
+
+
+

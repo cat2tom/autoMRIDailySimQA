@@ -3,6 +3,7 @@
 *.pyd
 *.dll
 *.exe
+*.log
 autoMRISimQATimerClinicTest.prj
 autoMRISimQATimerClinicTest.prj
 autoMRISimQATimerClinicTest/PackagingLog.txt
@@ -12,7 +13,6 @@ autoMRISimQATimerClinicTest.prj
 includedSupportPackages.txt
 mccExcludedFiles.log
 PackagingLog.html
-readme.txt
 requiredMCRProducts.txt
 splash.png
 unresolvedSymbols.txt
